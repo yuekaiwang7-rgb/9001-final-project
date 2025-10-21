@@ -113,7 +113,7 @@ def show_enemy():
             if e.y > 420 : #设置游戏结束的条件 玩家失败
                 is_over = True  #游戏结束
                 print("游戏结束") #输出游戏结束
-                enemies.clear() #清空攻击对象 游戏结束
+                enemies.clear() #清空攻击对象 游戏结束`12
 
 def move_player(): #设置小飞机的移动
     global playerX #调用全局变量
